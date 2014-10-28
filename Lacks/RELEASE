@@ -1,0 +1,11 @@
+perl Makefile.PL
+make
+make manifest
+make distdir
+
+rm CPAN-Test-Dummy-SCO-Lacks-0.01/META.json
+
+remove META.json from CPAN-Test-Dummy-SCO-Lacks-0.01/MANIFEST
+
+tar czf CPAN-Test-Dummy-SCO-Lacks-0.01.tar.gz CPAN-Test-Dummy-SCO-Lacks-0.01/
+
