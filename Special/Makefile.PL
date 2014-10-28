@@ -13,7 +13,8 @@ my %conf = (
 );
 
 if (eval { ExtUtils::MakeMaker->VERSION(6.3002) }) {
-	$conf{LICENSE} = 'perl';
+	#$conf{LICENSE} = 'perl';
+	$conf{LICENSE} = 'lgpl_2_1';
 }
 
 
