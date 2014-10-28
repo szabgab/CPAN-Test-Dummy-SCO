@@ -5,7 +5,7 @@ my $preop =
     'pod2text $(VERSION_FROM) | tee $(DISTVNAME)/README > README;';
 
 WriteMakefile(
-              'NAME'         => 'CPAN::Test::Dummy::SCO::Missing',
+              'NAME'         => 'CPAN-Test-Dummy-SCO-Missing',
               'VERSION_FROM' => 'bin/cpan-test-dummy-sco-missing', # finds $VERSION
               'EXE_FILES'    => [ 'bin/cpan-test-dummy-sco-missing' ],
 	      'PREREQ_PM'    => {
