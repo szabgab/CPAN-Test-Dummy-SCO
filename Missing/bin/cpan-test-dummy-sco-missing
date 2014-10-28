@@ -1,0 +1,9 @@
+#!/usr/bin/env perl
+print "Hello world\n";
+
+our $VERSION = '0.37';
+
+package CPAN::Test::Dummy::SCO::Missing;
+
+print "Nothing here\n";
+
