@@ -12,7 +12,7 @@ See L<search.cpan.org clone project|http://perlmaven.com/search-cpan-org>.
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 1;
