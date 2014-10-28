@@ -7,3 +7,5 @@ Makefile.bak
 blib/
 pm_to_blib
 CPAN-Test-Dummy-SCO*
+Missing/README
+Missing/README.md
